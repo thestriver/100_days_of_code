@@ -16,6 +16,7 @@ The goal with this round is to
 
 
 Day 1:
+---------------
 
 **Project:** Private web project
 
