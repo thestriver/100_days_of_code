@@ -17,16 +17,15 @@ The goal with this round is to
 
 Day 1:
 
-**Project:**
+**Project:** Private web project
 
-**Progress:**
+<!-- **Progress:** -->
 
-**Thoughts:**
+**Thoughts:** Had a private website to develop. Using some pre-built [Tailwind components](https://tailblocks.cc) really accelerated development. I should be done tommorrow.  
+<!-- 
+[Image]() -->
 
-[Image]()
-
-**Link**
+<!-- **Link** -->
 
 
 <!-- https://github.com/james-priest/100-days-of-code-log -->
-
