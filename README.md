@@ -1,4 +1,5 @@
 Round 1 of #100DaysOfCode 
+---------------
 
 The goal with this round is to 
 
@@ -10,10 +11,9 @@ The goal with this round is to
 
 ✨★ Create mini-projects on other interested topics: 
     - JAMstack 
-    - Headless Wordpress Development
+    - Headless Wordpress Development  
 
-
-
+&nbsp;
 
 Day 1:
 ---------------
