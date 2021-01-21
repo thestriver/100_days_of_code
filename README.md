@@ -1,7 +1,7 @@
 Round 1 of #100DaysOfCode 
 ---------------
 
-The goal with this round is to 
+The goal with this round is to :
 
 ✨★ Get at least the AWS CCP Certificate done 
 
@@ -23,6 +23,15 @@ Day 1:
 <!-- **Progress:** -->
 
 **Thoughts:** Had a private website to develop. Using some pre-built [Tailwind components](https://tailblocks.cc) really accelerated development. I should be done tommorrow.  
+
+Day 2:
+---------------
+
+**Project:** Private web project
+
+<!-- **Progress:** -->
+
+**Thoughts:** Spent 2 hours on this. Just concerned with the styling. A hour or two and I should be done. Still have a couple of Vue(x) workings to complete too. 
 <!-- 
 [Image]() -->
 
