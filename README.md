@@ -32,6 +32,15 @@ Day 2:
 <!-- **Progress:** -->
 
 **Thoughts:** Spent 2 hours on this. Just concerned with the styling. A hour or two and I should be done. Still have a couple of Vue(x) workings to complete too. 
+
+Day 2:
+---------------
+
+**Project:** Private web project | Vue
+
+<!-- **Progress:** -->
+
+**Thoughts:** Spent an hours on this. Just concerned with the styling. Also did work on a Vue component. Should have it ramped up soon. 
 <!-- 
 [Image]() -->
 
