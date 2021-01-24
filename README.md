@@ -33,7 +33,7 @@ Day 2:
 
 **Thoughts:** Spent 2 hours on this. Just concerned with the styling. A hour or two and I should be done. Still have a couple of Vue(x) workings to complete too. 
 
-Day 2:
+Day 3:
 ---------------
 
 **Project:** Private web project | Vue
