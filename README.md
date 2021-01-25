@@ -41,6 +41,15 @@ Day 3:
 <!-- **Progress:** -->
 
 **Thoughts:** Spent an hours on this. Just concerned with the styling. Also did work on a Vue component. Should have it ramped up soon. 
+
+Day 4:
+---------------
+
+**Project:** Voting Project 
+
+<!-- **Progress:** -->
+
+**Thoughts:** Worked though a voting app project. 60% completion. Tools used are: React, Node, Express, MongoDb, Redis
 <!-- 
 [Image]() -->
 
