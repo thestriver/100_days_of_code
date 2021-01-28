@@ -50,6 +50,18 @@ Day 4:
 <!-- **Progress:** -->
 
 **Thoughts:** Worked though a voting app project. 60% completion. Tools used are: React, Node, Express, MongoDb, Redis
+
+
+Day 5:
+---------------
+
+**Project:** Voting Project 
+
+<!-- **Progress:** -->
+
+**Thoughts:** Worked though a mini activity voter complete with emojis. A nice mini app to work through some vuex lessons. Got some more to go through
+
+
 <!-- 
 [Image]() -->
 
