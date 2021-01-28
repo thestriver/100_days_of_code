@@ -52,7 +52,7 @@ Day 4:
 **Thoughts:** Worked though a voting app project. 60% completion. Tools used are: React, Node, Express, MongoDb, Redis
 
 
-Day 5:
+Day 5 - 26th:
 ---------------
 
 **Project:** Voting Project 
