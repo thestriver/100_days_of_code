@@ -52,7 +52,7 @@ Day 4:
 **Thoughts:** Worked though a voting app project. 60% completion. Tools used are: React, Node, Express, MongoDb, Redis
 
 
-Day 5 - 26th:
+Day 5:
 ---------------
 
 **Project:** Voting Project 
@@ -60,6 +60,16 @@ Day 5 - 26th:
 <!-- **Progress:** -->
 
 **Thoughts:** Worked though a mini activity voter complete with emojis. A nice mini app to work through some vuex lessons. Got some more to go through
+
+Day 6:
+---------------
+
+**Project:** Building a Restaurant Menu backend application with AWS Amplify 
+
+<!-- **Progress:** -->
+
+**Thoughts:** Always wanted to deploy a AWS cloud app so this short setup is a nice intro. 
+
 
 
 <!-- 
