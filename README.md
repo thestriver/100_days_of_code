@@ -68,9 +68,17 @@ Day 6:
 
 <!-- **Progress:** -->
 
-**Thoughts:** Always wanted to deploy a AWS cloud app so this short setup is a nice intro. 
+**Thoughts:** Always wanted to deploy a AWS cloud app so this short setup is a nice intro. Ran into some challenges though and I hope to fix them soon. 
 
 
+Day 7:
+---------------
+
+**Project:** Side-Projects | Python 
+
+<!-- **Progress:** -->
+
+**Thoughts:** Started the day with some Python coding. Python is my second language of choice. Also started work on a side project I'm working on. That would be side project 1 of 12.  
 
 <!-- 
 [Image]() -->
