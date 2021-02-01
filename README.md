@@ -80,6 +80,15 @@ Day 7:
 
 **Thoughts:** Started the day with some Python coding. Python is my second language of choice. Also started work on a side project I'm working on. That would be side project 1 of 12.  
 
+
+Day 8:
+---------------
+
+**Project:** Side-Projects
+<!-- **Progress:** -->
+
+**Thoughts:** Spent the day completing the front end section on a side project I'm working on. Need to integrate a payment system to make it functional.
+
 <!-- 
 [Image]() -->
 
