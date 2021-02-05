@@ -74,7 +74,7 @@ Day 6:
 Day 7:
 ---------------
 
-**Project:** Side-Projects | Python 
+**Project:** Side-Projects 1.0 | Python 
 
 <!-- **Progress:** -->
 
@@ -84,7 +84,7 @@ Day 7:
 Day 8:
 ---------------
 
-**Project:** Side-Projects
+**Project:** Side-Project 1.1
 <!-- **Progress:** -->
 
 **Thoughts:** Spent the day completing the front end section on a side project I'm working on. Need to integrate a payment system to make it functional.
@@ -93,7 +93,7 @@ Day 8:
 Day 9:
 ---------------
 
-**Project:** Side-Projects
+**Project:** Side-Project 1.2
 <!-- **Progress:** -->
 
 **Thoughts:** Converted the side project to a Vue app. 
@@ -102,10 +102,19 @@ Day 9:
 Day 10:
 ---------------
 
-**Project:** Side-Projects
+**Project:** Side-Project 1.3
 <!-- **Progress:** -->
 
 **Thoughts:** Finished work on the Vue app conversion. Also fixed some styling issues. It's my first time working with Vue + Tailwind so there was a couple of errors to fix. 
+
+
+Day 11:
+---------------
+
+**Project:** Side-Project 1.4
+<!-- **Progress:** -->
+
+**Thoughts:** Integrated a test payment processing functionality into it. Also explored other options. Need to spend more time doing that.  
 
 <!-- 
 [Image]() -->
