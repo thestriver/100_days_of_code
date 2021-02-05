@@ -98,6 +98,15 @@ Day 9:
 
 **Thoughts:** Converted the side project to a Vue app. 
 
+
+Day 10:
+---------------
+
+**Project:** Side-Projects
+<!-- **Progress:** -->
+
+**Thoughts:** Finished work on the Vue app conversion. Also fixed some styling issues. It's my first time working with Vue + Tailwind so there was a couple of errors to fix. 
+
 <!-- 
 [Image]() -->
 
