@@ -89,6 +89,15 @@ Day 8:
 
 **Thoughts:** Spent the day completing the front end section on a side project I'm working on. Need to integrate a payment system to make it functional.
 
+
+Day 9:
+---------------
+
+**Project:** Side-Projects
+<!-- **Progress:** -->
+
+**Thoughts:** Converted the side project to a Vue app. 
+
 <!-- 
 [Image]() -->
 
