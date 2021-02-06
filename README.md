@@ -114,7 +114,7 @@ Day 11:
 **Project:** Side-Project 1.4
 <!-- **Progress:** -->
 
-**Thoughts:** Integrated a test payment processing functionality into it. Also explored other options. Need to spend more time doing that.  
+**Thoughts:** Integrated a test payment processing functionality into it. Also explored other options of better integrating micro crowdfunding payments. Need to spend more time doing that.  
 
 <!-- 
 [Image]() -->
