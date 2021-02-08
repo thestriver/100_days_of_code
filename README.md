@@ -116,6 +116,22 @@ Day 11:
 
 **Thoughts:** Integrated a test payment processing functionality into it. Also explored other options of better integrating micro crowdfunding payments. Need to spend more time doing that.  
 
+
+Day 12:
+---------------
+
+**Project:** Location App with AWS Amplify and Amazon Location services. 
+
+**Thoughts:** Worked on a nice and short overview of AWS AMplify and the new location services released by Aamazon. This made it easy for anyone to build a map displaying specified coordinates. The react app also included a search functionality enabling anyone to input a location and be able to view its map. I hope to extend the map's functionality such as asking the users for clarification for name of cities in different states/countries. 
+
+Day 13:
+---------------
+
+**Project:** Portfolio Revamp
+
+**Thoughts:** I've been exploring revamping my React Portfolio app into a JAMStack app. Still researching the optimal combination. 
+
+
 <!-- 
 [Image]() -->
 
