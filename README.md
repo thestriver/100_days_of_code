@@ -129,7 +129,7 @@ Day 13:
 
 **Project:** Portfolio Revamp
 
-**Thoughts:** I've been exploring revamping my React Portfolio app into a JAMStack app. Still researching the optimal combination. 
+**Thoughts:** I've been exploring revamping my React Portfolio app into a JAMStack app. Still researching the optimal combination. Right now, Gatsby /Headless CMS solution looks like the best fit. 
 
 
 <!-- 
