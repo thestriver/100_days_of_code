@@ -57,16 +57,12 @@ Day 5:
 
 **Project:** Voting Project 
 
-<!-- **Progress:** -->
-
 **Thoughts:** Worked though a mini activity voter complete with emojis. A nice mini app to work through some vuex lessons. Got some more to go through
 
 Day 6:
 ---------------
 
 **Project:** Building a Restaurant Menu backend application with AWS Amplify 
-
-<!-- **Progress:** -->
 
 **Thoughts:** Always wanted to deploy a AWS cloud app so this short setup is a nice intro. Ran into some challenges though and I hope to fix them soon. 
 
@@ -76,8 +72,6 @@ Day 7:
 
 **Project:** Side-Projects 1.0 | Python 
 
-<!-- **Progress:** -->
-
 **Thoughts:** Started the day with some Python coding. Python is my second language of choice. Also started work on a side project I'm working on. That would be side project 1 of 12.  
 
 
@@ -85,7 +79,6 @@ Day 8:
 ---------------
 
 **Project:** Side-Project 1.1
-<!-- **Progress:** -->
 
 **Thoughts:** Spent the day completing the front end section on a side project I'm working on. Need to integrate a payment system to make it functional.
 
@@ -94,7 +87,6 @@ Day 9:
 ---------------
 
 **Project:** Side-Project 1.2
-<!-- **Progress:** -->
 
 **Thoughts:** Converted the side project to a Vue app. 
 
@@ -103,7 +95,6 @@ Day 10:
 ---------------
 
 **Project:** Side-Project 1.3
-<!-- **Progress:** -->
 
 **Thoughts:** Finished work on the Vue app conversion. Also fixed some styling issues. It's my first time working with Vue + Tailwind so there was a couple of errors to fix. 
 
@@ -112,7 +103,6 @@ Day 11:
 ---------------
 
 **Project:** Side-Project 1.4
-<!-- **Progress:** -->
 
 **Thoughts:** Integrated a test payment processing functionality into it. Also explored other options of better integrating micro crowdfunding payments. Need to spend more time doing that.  
 
