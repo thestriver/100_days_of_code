@@ -29,8 +29,6 @@ Day 2:
 
 **Project:** Private web project
 
-<!-- **Progress:** -->
-
 **Thoughts:** Spent 2 hours on this. Just concerned with the styling. A hour or two and I should be done. Still have a couple of Vue(x) workings to complete too. 
 
 Day 3:
@@ -38,16 +36,12 @@ Day 3:
 
 **Project:** Private web project | Vue
 
-<!-- **Progress:** -->
-
 **Thoughts:** Spent an hours on this. Just concerned with the styling. Also did work on a Vue component. Should have it ramped up soon. 
 
 Day 4:
 ---------------
 
 **Project:** Voting Project 
-
-<!-- **Progress:** -->
 
 **Thoughts:** Worked though a voting app project. 60% completion. Tools used are: React, Node, Express, MongoDb, Redis
 
@@ -120,6 +114,14 @@ Day 13:
 **Project:** Portfolio Revamp
 
 **Thoughts:** I've been exploring revamping my React Portfolio app into a JAMStack app. Still researching the optimal combination. Right now, Gatsby /Headless CMS solution looks like the best fit. 
+
+
+Day 14:
+---------------
+
+<!-- **Project:** Portfolio Revamp -->
+<!-- 
+**Thoughts:** I've been exploring revamping my React Portfolio app into a JAMStack app. Still researching the optimal combination. Right now, Gatsby /Headless CMS solution looks like the best fit.  -->
 
 
 <!-- 
