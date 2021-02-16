@@ -122,6 +122,14 @@ Day 14:
 
 **Thoughts:** Decided to work on my technical interviewing skills. Started working on a number of mini-refresher courses. Will most likely be using AlgoExpert for the main prep.
 
+
+Day 15:
+---------------
+
+**Project:** Side-Project 2.1
+
+**Thoughts:** Spent the day working on the landing page of a side project I'm working on. 
+
 <!-- 
 [Image]() -->
 
