@@ -118,8 +118,9 @@ Day 13:
 
 Day 14:
 ---------------
+**Project:** Data Structures & Algorithms
 
-
+**Thoughts:** Decided to work on my technical interviewing skills. Started working on a number of mini-refresher courses. Will most likely be using AlgoExpert for the main prep.
 
 <!-- 
 [Image]() -->
