@@ -137,6 +137,14 @@ Day 16:
 **Project:** Side-Project 2.2
 
 **Thoughts:** Spent the day working on the landing page of a side project I'm working on. 
+
+
+Day 17:
+---------------
+
+**Project:** Side-Project 2.3
+
+**Thoughts:** 
 <!-- 
 [Image]() -->
 
