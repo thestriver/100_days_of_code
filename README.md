@@ -146,6 +146,13 @@ Day 17:
 
 **Thoughts:** Spent the working on the other design page of the side project with Figma. Also researched on the best database + authentication framework. 
 
+Day 17:
+---------------
+
+**Project:** Side-Project 2.4
+
+**Thoughts:** Spent the working on the wireframes of the side project with Figma. Also researched on the best database + authentication framework. I think I've settled one now. 
+
 
 <!-- 
 [Image]() -->
