@@ -158,7 +158,7 @@ Day 19:
 
 **Project:** Side-Project 2.5
 
-**Thoughts:** 
+**Thoughts:** Worked on understanding the structure of the boilerplate I would be using. Developed some pages too. 
 
 <!-- 
 [Image]() -->
