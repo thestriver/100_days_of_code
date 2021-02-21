@@ -160,6 +160,14 @@ Day 19:
 
 **Thoughts:** Worked on understanding the structure of the boilerplate I would be using. Developed some pages too. 
 
+Day 20:
+---------------
+
+**Project:** Side-Project 2.6
+
+**Thoughts:** Developed some components. Just doing the scaffolding. There's still a lot to be done.  
+
+
 <!-- 
 [Image]() -->
 
