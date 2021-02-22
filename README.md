@@ -168,6 +168,12 @@ Day 20:
 **Thoughts:** Developed some components. Just doing the scaffolding. There's still a lot to be done.  
 
 
+Day 21:
+---------------
+
+**Project:** Side-Project 2.2
+
+**Thoughts:** Worked on firebase and some aspects of Vue. Should write a blogpost on the errors I ran into. 
 <!-- 
 [Image]() -->
 
