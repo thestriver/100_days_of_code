@@ -171,9 +171,19 @@ Day 20:
 Day 21:
 ---------------
 
-**Project:** Side-Project 2.2
+**Project:** Side-Project 2.7
 
 **Thoughts:** Worked on firebase and some aspects of Vue. Should write a blogpost on the errors I ran into. 
+
+
+Day 22:
+---------------
+
+**Project:** Side-Project 2.8
+
+**Thoughts:** Still Firebase and Vue. More tinkering.
+
+
 <!-- 
 [Image]() -->
 
