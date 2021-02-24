@@ -183,7 +183,12 @@ Day 22:
 
 **Thoughts:** Still Firebase and Vue. More tinkering.
 
+Day 23:
+---------------
 
+**Project:** Side-Project 2.9
+
+**Thoughts:** A relief to start working on the main project back. Some architectring and css-ing
 <!-- 
 [Image]() -->
 
