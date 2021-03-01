@@ -189,6 +189,12 @@ Day 23:
 **Project:** Side-Project 2.9
 
 **Thoughts:** A relief to start working on the main project back. Some architectring and css-ing
+
+
+Day 24-28
+**Project:** Side-Project 2.10
+**Thoughts:** Worked on the side project dashbaord, landing page and about page throughout the week. Just some minor edits and bugs.
+
 <!-- 
 [Image]() -->
 
