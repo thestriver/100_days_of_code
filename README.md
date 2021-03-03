@@ -195,6 +195,9 @@ Day 24-28
 **Project:** Side-Project 2.10
 **Thoughts:** Worked on the side project dashbaord, landing page and about page throughout the week. Just some minor edits and bugs.
 
+Day 29-30 
+**Project:** Side-Project 2.11
+**Thoughts:** Working on a new dashboard. 
 <!-- 
 [Image]() -->
 
