@@ -198,6 +198,12 @@ Day 24-28
 Day 29-30 
 **Project:** Side-Project 2.11
 **Thoughts:** Working on a new dashboard. 
+
+
+Day 31
+**Project:** Side-Project 2.12
+**Thoughts:** Working on the landing home page for the dashboard. Decided not use the a side bar for this. 
+
 <!-- 
 [Image]() -->
 
