@@ -204,6 +204,10 @@ Day 31
 **Project:** Side-Project 2.12
 **Thoughts:** Working on the landing home page for the dashboard. Decided not use the a side bar for this. 
 
+Day 31-33
+**Project:** Side-Project 2.13
+**Thoughts:** Finished the job board. Still have some kinks to sort out with the filters
+
 <!-- 
 [Image]() -->
 
