@@ -192,19 +192,23 @@ Day 23:
 
 
 Day 24-28
+---------------
 **Project:** Side-Project 2.10
 **Thoughts:** Worked on the side project dashbaord, landing page and about page throughout the week. Just some minor edits and bugs.
 
 Day 29-30 
+---------------
 **Project:** Side-Project 2.11
 **Thoughts:** Working on a new dashboard. 
 
 
 Day 31
+---------------
 **Project:** Side-Project 2.12
 **Thoughts:** Working on the landing home page for the dashboard. Decided not use the a side bar for this. 
 
 Day 31-33
+---------------
 **Project:** Side-Project 2.13
 **Thoughts:** Finished the job board. Still have some kinks to sort out with the filters
 
