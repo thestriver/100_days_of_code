@@ -212,6 +212,12 @@ Day 31-33
 **Project:** Side-Project 2.13
 **Thoughts:** Finished the job board. Still have some kinks to sort out with the filters
 
+
+Day 34
+---------------
+**Project:** Side-Project 2.14
+**Thoughts:** Ironing some  content and code kink
+
 <!-- 
 [Image]() -->
 
