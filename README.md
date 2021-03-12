@@ -218,6 +218,11 @@ Day 34
 **Project:** Side-Project 2.14
 **Thoughts:** Ironing some  content and code kink
 
+Day 35
+---------------
+**Project:** Side-Project 2.15
+**Thoughts:** Ironing some  content and code kinks
+
 <!-- 
 [Image]() -->
 
