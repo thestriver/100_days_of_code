@@ -223,6 +223,11 @@ Day 35
 **Project:** Side-Project 2.15
 **Thoughts:** Ironing some  content and code kinks
 
+Day 36-37
+---------------
+**Project:** Side-Project 2.16
+**Thoughts:** Re-designing the landing page
+
 <!-- 
 [Image]() -->
 
