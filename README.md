@@ -228,6 +228,11 @@ Day 36-37
 **Project:** Side-Project 2.16
 **Thoughts:** Re-designing the landing page
 
+Day 38-42
+---------------
+**Project:** Side-Project 2.17
+**Thoughts:** Added a number of mini features to the dashboard. Ready for more beta users now before full launch.
+
 <!-- 
 [Image]() -->
 
