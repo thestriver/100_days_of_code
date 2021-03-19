@@ -3,14 +3,18 @@ What is Cloud Computing?
 Six Advantages and Benefits of Cloud Computing
 Types of Cloud Computing
 Cloud Computing Deployment Models
+---------------
 AWS Global Infrastructure
 Map Overview
 Regions
 Availability Zones
 Edge Locations
 GovCloud Regions
+
+---------------
 Getting Started
 Creating an AWS Account
+
 Billing Preferences, Budgets and Alarms
 Change IAM Users Sign-in Link
 Activate MFA on Root Account
@@ -18,6 +22,7 @@ Create individual IAM user
 Set a password policy
 Hands On
 Regions
+
 EC2
 Sessions Manager
 AMI
@@ -27,16 +32,17 @@ S3
 CloudFront
 RDS
 Lambda
-️ EC2 Pricing Models
+EC2 Pricing Models
 On-Demand
 Reserved
 Spot
 Dedicated
 EC2 Pricing CheatSheet
-️ Billing and Pricing
+️Billing and Pricing
 Free Services
 AWS Support Plans
 Follow Along - Lets create a support case
+
 AWS Marketplace
 Follow Along - Marketplace subscription
 AWS Trusted Advisor
