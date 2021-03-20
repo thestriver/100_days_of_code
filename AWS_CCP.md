@@ -1,7 +1,7 @@
 Cloud Concepts
 What is Cloud Computing?
 Six Advantages and Benefits of Cloud Computing
-Types of Cloud Computing
+Types of Cloud Computing - SaaS , PaaS and IaaS
 Cloud Computing Deployment Models
 ---------------
 AWS Global Infrastructure
@@ -10,19 +10,17 @@ Regions
 Availability Zones
 Edge Locations
 GovCloud Regions
-
 ---------------
 Getting Started
 Creating an AWS Account
-
 Billing Preferences, Budgets and Alarms
 Change IAM Users Sign-in Link
 Activate MFA on Root Account
 Create individual IAM user
 Set a password policy
+---------------
 Hands On
 Regions
-
 EC2
 Sessions Manager
 AMI
@@ -32,17 +30,20 @@ S3
 CloudFront
 RDS
 Lambda
+---------------
+
 EC2 Pricing Models
 On-Demand
 Reserved
 Spot
 Dedicated
 EC2 Pricing CheatSheet
+---------------
+
 ️Billing and Pricing
 Free Services
 AWS Support Plans
 Follow Along - Lets create a support case
-
 AWS Marketplace
 Follow Along - Marketplace subscription
 AWS Trusted Advisor
@@ -61,6 +62,8 @@ Resource Groups Follow Along
 AWS QuickStart
 AWS Cost and Usage Report
 Cost and Usage Follow Along
+---------------
+
 Technology Overview
 AWS Organizations and Accounts
 AWS Organizations Follow Along
@@ -73,6 +76,8 @@ Business Centric Services
 Enterprise Integration
 Logging Services
 Know your Initialisms
+---------------
+
 AWS Security
 Shared Responsibility Model
 AWS Compliance programs
@@ -87,6 +92,8 @@ Key Management Service
 Amazon Macie
 Security Groups vs NACLs
 AWS VPN
+---------------
+
 Variation Study
 Cloud* Service
 *Connect Service
