@@ -233,6 +233,11 @@ Day 38-42
 **Project:** Side-Project 2.17
 **Thoughts:** Added a number of mini features to the dashboard. Ready for more beta users now before full launch.
 
+Day 43-45
+---------------
+**Project:** AWS CCP + DS&A
+**Thoughts:** Prepping for AWS CCP and working through some DS&A
+
 <!-- 
 [Image]() -->
 
