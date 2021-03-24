@@ -194,49 +194,65 @@ Day 23:
 Day 24-28
 ---------------
 **Project:** Side-Project 2.10
+
 **Thoughts:** Worked on the side project dashbaord, landing page and about page throughout the week. Just some minor edits and bugs.
 
 Day 29-30 
 ---------------
 **Project:** Side-Project 2.11
+
 **Thoughts:** Working on a new dashboard. 
 
 
 Day 31
 ---------------
 **Project:** Side-Project 2.12
+
 **Thoughts:** Working on the landing home page for the dashboard. Decided not use the a side bar for this. 
 
 Day 31-33
 ---------------
 **Project:** Side-Project 2.13
+
 **Thoughts:** Finished the job board. Still have some kinks to sort out with the filters
 
 
 Day 34
 ---------------
 **Project:** Side-Project 2.14
+
 **Thoughts:** Ironing some  content and code kink
 
 Day 35
 ---------------
 **Project:** Side-Project 2.15
+
 **Thoughts:** Ironing some  content and code kinks
 
 Day 36-37
 ---------------
 **Project:** Side-Project 2.16
+
 **Thoughts:** Re-designing the landing page
 
 Day 38-42
 ---------------
 **Project:** Side-Project 2.17
+
 **Thoughts:** Added a number of mini features to the dashboard. Ready for more beta users now before full launch.
 
 Day 43-45
 ---------------
-**Project:** AWS CCP + DS&A
+**Project:** AWS CCP + DS
+
 **Thoughts:** Prepping for AWS CCP and working through some DS&A
+
+
+Day 46
+---------------
+**Project:** AWS CCP + DS + Side project Fix
+
+**Thoughts:** Prepping for AWS CCP and working through some DS&A. Had to spend some time fixing some mobile responsiveness issues. 
 
 <!-- 
 [Image]() -->
