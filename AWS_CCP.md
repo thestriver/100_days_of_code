@@ -33,10 +33,17 @@ GovCloud Regions - host sensitive Controlled Unclassified Information
 ---------------
 
 Creating an AWS Account
+
 Billing Preferences, Budgets and Alarms
-Change IAM Users Sign-in Link
+
+Change IAM Users
+
+Sign-in Link
+
 Activate MFA on Root Account
+
 Create individual IAM user
+
 Set a password policy
 
 ---------------
