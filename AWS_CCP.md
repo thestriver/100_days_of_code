@@ -132,11 +132,14 @@ AWS Marketplace
 <u>AWS Trusted Advisor </u> - (advice on **saving money**, performance, fault tolerance). 7 for Free & developer , All for Business and Enterprise <br>
 Cost Optimization - e.g  idle Load Balancers & Unassociated Elastic IP addresses <br>
 Performance - High Utilization Amazon EC2 Instances
+
 Security - MFA on Root Account, IAM Access Key rotations 
+
 Fault Tolerance - Amazon RDS Backups
+
 Service Limits - VPC 
 
-**CPSFC*
+**CPSFS*
 
 Consolidated Billing - all charges consolidated into **one bill**
 The **master account** can pay the expenses of member account and you can use the cost explorer to visualize the costs.
@@ -146,17 +149,18 @@ Consolidated Billing Volume Discounts
 AWS Cost Explorer
 
 AWS Budgets: first 2 budgets are free. subsequent are $0.02 per day / 20,000 budgets limit
+
 Cost, usage and reservation budgets. Alerts support EC2, RDS, Redshift, ElasticCache etc. 
 
-TCO Calculator
+TCO(Total Cost of Ownership) Calculator
 
 AWS Landing Zone - helps **Enterprises** quickly set up AWS multi-account architecture via *AWS AVM(Account Vending Machine)
 
 Resource Groups and Tagging
- - *Tags* are words/phrases that act as metadata for organizing AWS *resources* while *Resource groups* are a collection of resources that share one or more tags. RG show details about metrics, alarms and Config setiings.
+ - *Tags* are words/phrases that act as metadata for organizing AWS *resources* while *Resource groups* are a collection of resources that share one or more tags. RG show details about metrics, alarms and Config settings.
 
 AWS QuickStart: 3 parts
- - 1. reference achictecture 2. CloudFormation Templates 3. Deployment guide
+ 1. reference achictecture 2. CloudFormation Templates 3. Deployment guide
 
 AWS Cost and Usage Report
 - generate detailed spreadsheet that are placed in **S3** & can be queried as a database using **Athena** and/or visualized as graphs using **Quicksight** 
@@ -219,14 +223,12 @@ Amazon Inspector e.g Analyze application security. e.g you can use a framework l
 
 AWS WAF (Web Application Firewall) - helps protect web application from common attacks like OWASP Top 10 either through **writing your own rules** or getting a **ruleset from WAF markeplace** and then attaching it to your load balancer or Cloudfront (CDN)
 
-AWS Shield - **managed** DDOS service . Shield Standard (Free and automatically turned on all AWS services for common attacks ) / Shield Aldvanced *$3000* (larger and sophisticated attacks and turned on AWS route54, Cloudfront, LB, Elastic IP &Global Accelerator plus visibility dashboard and DDOS expoerts ) 
+AWS Shield - **managed** DDOS service . Shield Standard (Free and automatically turned on all AWS services for common attacks ) / Shield Advanced *$3000* (larger and sophisticated attacks and turned on AWS route54, Cloudfront, LB, Elastic IP &Global Accelerator plus visibility dashboard and DDOS expoerts ) 
 
 Penetration Testing
 ![](pentesting.png)
 
-GuardDuty - A service that provides intelligent threat detection for your AWS infrastructure and resources.
-
-Intelligent Intrusiion Detection System/Intrusion Protection System
+GuardDuty - A service that provides intelligent threat detection for your AWS infrastructure and resources. e.g. Intelligent Intrusion Detection System(IDS)/Intrusion Protection System(IPS)
 
 Key Management Service (KMS) - encryption keys (KMS uses Envelope Encryption and is a multi-tenant HSM(Hardware security module))
 
@@ -301,3 +303,19 @@ The AWS Well-Architected Framework helps you understand how to design and operat
 - Cost optimization
 
 Amazon Augmented AI (Amazon A2I) provides built-in human review workflows for common machine learning use cases, such as content moderation and text extraction from documents.
+
+Amazon Kendra: Highly accurate enterprise search service powered by machine learning
+
+Kinesis : Work with Real-Time Streaming Data
+
+Athena:  Query Data in S3 using SQL
+
+Amazon Sumerian:  Build VR, AR, and 3D applications
+
+AWS Fargate is a serverless compute engine for containers.
+
+Cognito: AWS Credentials for Federated Identities
+
+Systems Manager: AWS Systems Manager is a Central Place to View and Manage AWS Resources
+
+Amazon Rekognition: Search and Analyze Images
