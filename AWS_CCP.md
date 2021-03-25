@@ -19,11 +19,11 @@ Cloud Computing Deployment Models - Cloud, Hybrid, On-Premise
 
 Map Overview
 
-Regions
+Regions - A separate geographical location with multiple locations that are isolated from each other
 
 Availability Zones - 25 Launched Regions (geographically distinct), 80 Availability Zones , 218+ Edge Locations.
 
-AZs are physically separated by a meaningful distance, many kilometers, from any other AZ, although all are within 100 km (60 miles) of each other. and **<10ms latency between AZs**  
+AZs are physically separated by a meaningful distance, many kilometers, from any other AZ, although all are within 100 km (60 miles) of each other. A fully isolated portion of the AWS global infrastructure. and **<10ms latency between AZs**  
 
 Edge Locations - Owned by Trusted partner/serve requests for Cloudfront and Route 53. Sometimes also used by S3 Transfer Acceleration and API Gateway. 
 Reliable, **low latency** and high throughput network connectivity
@@ -319,3 +319,17 @@ Cognito: AWS Credentials for Federated Identities
 Systems Manager: AWS Systems Manager is a Central Place to View and Manage AWS Resources
 
 Amazon Rekognition: Search and Analyze Images
+
+AMIs come in three main categories:
+Community AMIs– free to use, generally you just select the operating system you want
+AWS Marketplace AMIs– pay to use, generally come packaged with additional, licensed software
+My AMIs– AMIs that you create yourself
+
+Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to find insights and relationships in text.
+
+DynamoDB is fully managed and can be scaled without incurring downtime
+Both RDS and ElastiCache use EC2 instances and therefore scaling (vertically) requires downtime
+
+Both Amazon EC2 and Amazon S3 are managed at a regional level. Note: Amazon S3 is a global namespace but you still create your buckets within a region
+CloudFront, Route 52 and IAM and managed at a global level
+
