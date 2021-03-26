@@ -1,4 +1,4 @@
-![](Domain.png)
+![](assets/images/ccp/Domain.png)
 
 <h2>Cloud Concepts</h2>
 
@@ -174,10 +174,10 @@ AWS Cost and Usage Report
 AWS Organizations and Accounts: Service control policies gives you control permissions over all accounts in the organization.
 
 AWS Networking
-![](networking.png)
+![](assets/images/ccp/networking.png)
 
 Database Services
-![](database.png)
+![](assets/images/ccp/database.png)
 
 N.B Amazon Aurora: A *fully-managed enterprise-class* relational database
 
@@ -187,7 +187,7 @@ Provisioning Services:
 AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python
 
 Computing Services
-![](computing.png)
+![](assets/images/ccp/computing.png)
 
 Storage Services
 
@@ -198,14 +198,14 @@ S3 Standard-IA is ideal for data that is infrequently accessed but requires high
 
 
 Business Centric Services
-![](business.png)
+![](assets/images/ccp/business.png)
 Enterprise Integration
 
 Logging Services
-![](logging.png)
+![](assets/images/ccp/logging.png)
 
 Know your Initialisms
-![](initials.png)
+![](assets/images/ccp/initials.png)
 
 ---------------
 ---------------
@@ -213,7 +213,7 @@ Know your Initialisms
 <h2>AWS Security</h2>
 Shared Responsibility Model: Customers are responsible for security *in* the cloud (by setting app data config) and Amazon is responsible for security *of* the cloud(taking care of software, managed services & global infastructure hardware)
 
-![](sharedrespon.png)
+![](assets/images/ccp/sharedrespon.png)
 
 AWS Compliance programs e.g Cloud Act 2018, HIPAA 1996 & PCI DSS
 
@@ -226,7 +226,7 @@ AWS WAF (Web Application Firewall) - helps protect web application from common a
 AWS Shield - **managed** DDOS service . Shield Standard (Free and automatically turned on all AWS services for common attacks ) / Shield Advanced *$3000* (larger and sophisticated attacks and turned on AWS route54, Cloudfront, LB, Elastic IP &Global Accelerator plus visibility dashboard and DDOS expoerts ) 
 
 Penetration Testing
-![](pentesting.png)
+![](assets/images/ccp/pentesting.png)
 
 GuardDuty - A service that provides intelligent threat detection for your AWS infrastructure and resources. e.g. Intelligent Intrusion Detection System(IDS)/Intrusion Protection System(IPS)
 
@@ -258,7 +258,7 @@ Inspector vs Trusted Advisor : Both are security tools with Inspector fixating o
 
 
 ALB vs NLB vs CLB
-![](loadbalancers.png)
+![](assets/images/ccp/loadbalancers.png)
 
 There's also the Gateway load which is for private virtual network using GENEVE
 
