@@ -254,11 +254,11 @@ Day 46
 
 **Thoughts:** Prepping for AWS CCP and working through some DS&A. Had to spend some time fixing some mobile responsiveness issues. 
 
-Day 47
+Day 47-48
 ---------------
-**Project:** AWS CCP + DS + Side project Fix
+**Project:** AWS SAA + DS + Side project Fix
 
-**Thoughts:** Prepping for AWS CCP and working through some DS&A. Had to spend some time fixing some mobile responsiveness issues. 
+**Thoughts:** Prepping for AWS SAA and working through some DS&A. 
 
 <!-- 
 [Image]() -->
