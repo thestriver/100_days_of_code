@@ -260,6 +260,12 @@ Day 47-48
 
 **Thoughts:** Prepping for AWS SAA and working through some DS&A. 
 
+Day 49-50
+---------------
+**Project:** AWS SAA + DS + Side project Fix
+
+**Thoughts:** Prepping for AWS SAA and working through some DS&A. 
+
 <!-- 
 [Image]() -->
 
