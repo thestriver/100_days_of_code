@@ -266,6 +266,24 @@ Day 49-50
 
 **Thoughts:** Prepping for AWS SAA and working through some DS&A. 
 
+Day 51-53
+---------------
+**Project:** AWS SAA + DS + Side project Fix
+
+**Thoughts:** Working through a landng page with React JS and Tailwind CSS
+
+Day 54-56
+---------------
+**Project:** AWS SAA + DS + Side project Fix
+
+**Thoughts:** Working through a landng page with React JS and Tailwind CSS
+
+
+Day 57-60
+---------------
+**Project:** AWS SAA + DS + Side project Fix
+
+**Thoughts:** Adding some new features to the side project.
 <!-- 
 [Image]() -->
 
