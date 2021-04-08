@@ -284,6 +284,12 @@ Day 57-60
 **Project:** AWS SAA + DS + Side project Fix
 
 **Thoughts:** Adding some new features to the side project.
+
+Day 61-62
+---------------
+**Project:**  Side project Fix
+
+**Thoughts:** Adding some new features to the side project.
 <!-- 
 [Image]() -->
 
