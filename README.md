@@ -290,6 +290,12 @@ Day 61-62
 **Project:**  Side project Fix
 
 **Thoughts:** Adding some new features to the side project.
+
+Day 63
+---------------
+**Project:**  Side project Fix
+
+**Thoughts:** Adding some more features to the side project.
 <!-- 
 [Image]() -->
 
