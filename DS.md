@@ -6,8 +6,8 @@ Complexity Analysis: <p>The process of determining how efficient an algorithm is
 
 ----
 
-<h2>Big O notation - a powerful tool that allows us to generalize the space-time complexity of an algorithm as a function of its input size.
-</h2>
+<h2>Big O notation 
+</h2> - a powerful tool that allows us to generalize the space-time complexity of an algorithm as a function of its input size.
 
 <div class><p>
   The notation used to describe the <b>time complexity</b> and
@@ -55,3 +55,5 @@ Complexity Analysis: <p>The process of determining how efficient an algorithm is
   to the worst case (e.g., "this algorithm runs in O(nlog(n)) time on average
   and in O(n<sup>2</sup>) time in the worse case").
 </p></div>
+
+Brief overwiew: https://www.youtube.com/watch?v=__vX2sjlpXU 

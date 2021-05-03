@@ -308,6 +308,12 @@ Day 65-72
 **Project:**  AWS SAA + DS + Side project Fix
 
 **Thoughts:** AWS SAA + DS + Side project Fix
+
+Day 73
+---------------
+**Project:**  DS/A + Mini Project
+
+**Thoughts:** Worked on DS/A + a mini react project
 <!-- 
 [Image]() -->
 
