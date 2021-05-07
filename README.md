@@ -314,6 +314,12 @@ Day 73
 **Project:**  DS/A + Mini Project
 
 **Thoughts:** Worked on DS/A + a mini react project
+
+Day 74-75
+---------------
+**Project:**  Blockchain: Solidity + project
+
+**Thoughts:** Started working through some blockhain projects
 <!-- 
 [Image]() -->
 
