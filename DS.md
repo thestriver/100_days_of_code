@@ -57,3 +57,25 @@ Complexity Analysis: <p>The process of determining how efficient an algorithm is
 </p></div>
 
 Brief overwiew: https://www.youtube.com/watch?v=__vX2sjlpXU 
+
+
+----
+
+<h2>Logarithm</h2> 
+
+<p><b>log<sub>b</sub>(x) = y</b> if and only if <b>b<sup>y</sup> = x</b></p>
+
+Thus => <p><b>log(n) = y</b> if and only if <b>2<sup>y</sup> = n</b></p>
+
+Key point:
+
+<u>To find the (binary) logarithm of base of a number We have to say <b>2</b> to the **power** of **?** is that number. </u>  if we solve that, **?** is the **log of N**
+
+Thus, To double **N**, we only need to increase **y** by 1. E.g:  2<sup>2</sup> = 4; 2<sup>2+1</sup> = 2<sup>3</sup> which **6**
+
+If n doubles, log(n) only increases by 1
+
+<p>In plain English, if an algorithm has a logarithmic time complexity (<b>O(log(n))</b>, where n is the size of the input), then whenever the algorithm's input doubles in size (i.e., whenever <b>n</b> doubles), the number of
+operations needed to
+complete the algorithm only increases by one unit. Conversely, an algorithm with a linear time complexity would
+see its number of operations double if its input size doubled.</p>

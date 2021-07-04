@@ -7,4 +7,10 @@ Week 1:
 
 ![](assets/images/devops/overview.png)
 
+Security skills (DevSecOps)
+- static code analysis
+- Unit tests
 
+CI/CD
+
+![](assets/images/devops/cicd.png)
