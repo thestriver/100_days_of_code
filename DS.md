@@ -34,6 +34,8 @@ Complexity Analysis: <p>The process of determining how efficient an algorithm is
   <li><b>Exponential</b>: O(2<sup>n</sup>)</li>
   <li><b>Factorial</b>: O(n!)</li>
 </ul>
+
+![](assets/images/ds/timecomplexities.png)
 <p>
   Note that in the context of coding interviews, Big O notation is usually
   understood to describe the
@@ -79,3 +81,60 @@ If n doubles, log(n) only increases by 1
 operations needed to
 complete the algorithm only increases by one unit. Conversely, an algorithm with a linear time complexity would
 see its number of operations double if its input size doubled.</p>
+
+
+
+----
+
+<h2>Arrays</h2> 
+
+2 types of Array:
+Static & Dynamic
+
+Static array operations and respective time and space complexities:
+![](assets/images/ds/arrayts.png)
+
+<h4>Array</h4><div><p>
+  A linear collection of data values that are accessible at numbered indices,
+  starting at index 0.
+</p>
+<p>
+  The following are an array's standard operations and their corresponding time
+  complexities:
+</p>
+<ul>
+  <li><b>Accessing a value at a given index</b>: O(1)</li>
+  <li><b>Updating a value at a given index</b>: O(1)</li>
+  <li><b>Inserting a value at the beginning</b>: O(n)</li>
+  <li><b>Inserting a value in the middle</b>: O(n)</li>
+  <li>
+    <b>Inserting a value at the end</b>:
+    <ul>
+      <li>amortized O(1) when dealing with a <b>dynamic array</b></li>
+      <li>O(n) when dealing with a <b>static array</b></li>
+    </ul>
+  </li>
+  <li><b>Removing a value at the beginning</b>: O(n)</li>
+  <li><b>Removing a value in the middle</b>: O(n)</li>
+  <li><b>Removing a value at the end</b>: O(1)</li>
+  <li><b>Copying the array</b>: O(n)</li>
+</ul>
+<p>
+  A static array is an implementation of an array that allocates a fixed amount
+  of memory to be used for storing the array's values. Appending values to the
+  array therefore involves copying the entire array and allocating new memory
+  for it, accounting for the extra space needed for the newly appended value.
+  This is a linear-time operation.
+</p>
+<p>
+  A dynamic array is an implementation of an array that preemptively allocates
+  double the amount of memory needed to store the array's values. Appending
+  values to the array is a constant-time operation until the allocated memory is
+  filled up, at which point the array is copied and double the memory is once
+  again allocated for it. This implementation leads to an amortized
+  constant-time insertion-at-end operation.
+</p>
+<p>
+  A lot of popular programming languages like JavaScript and Python implement
+  arrays as dynamic arrays.
+</p></div>
