@@ -138,3 +138,100 @@ Static array operations and respective time and space complexities:
   A lot of popular programming languages like JavaScript and Python implement
   arrays as dynamic arrays.
 </p></div>
+
+
+
+----
+
+<h2>Linked Lists</h2> 
+A big difference between Linked Lists and arrays is that while arrays need back to back spaces in the memory to create an array. Linked Lists use any spaces available in the memory and then connect to one another (i.e other nodes) using pointers.
+
+[Single Linked List](https://www.theavocoder.com/data-structures/2018/12/23/singly-linked-list)
+
+Each node needs 2 back to back memory slots. one showing the value and the other showing the pointer. That's for the singly linked list
+![](assets/images/ds/LinkedLists.png)
+
+The double linkedlist has got two pointers. one pointing to the next node and the other pointing to the previous(prev) node. 
+
+[Doubly linked list](https://www.theavocoder.com/data-structures/2018/12/23/doubly-linked-list)
+
+<li><h4 >Singly Linked List</h4><div ><p>
+  A data structure that consists of nodes, each with some value and a pointer to
+  the next node in the linked list. A linked list node's value and next node are
+  typically stored in <span>value</span>
+  and
+  <span>next</span> properties, respectively.
+</p>
+<p>
+  The first node in a linked list is referred to as the <b>head</b> of the
+  linked list, while the last node in a linked list, whose
+  <span>next</span> property points to the <span>null</span> value, is known as
+  the <b>tail</b> of the linked list.
+</p>
+<p>
+  Below is a visual representation of a singly linked list whose nodes hold
+  integer values:
+</p>
+<pre>0 -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; null
+</pre>
+<p>
+  A singly linked list typically exposes its head to its user for easy access.
+  While finding a node in a singly linked list involves traversing through all
+  of the nodes leading up to the node in question (as opposed to instant access
+  with an array), adding or removing nodes simply involves overwriting
+  <span>next</span> pointers (assuming that you have access to the node right
+  before the node that you're adding or removing).
+</p>
+<p>
+  The following are a singly linked list's standard operations and their
+  corresponding time complexities:
+</p>
+<ul>
+  <li><b>Accessing the head</b>: O(1)</li>
+  <li><b>Accessing the tail</b>: O(n)</li>
+  <li><b>Accessing a middle node</b>: O(n)</li>
+  <li><b>Inserting / Removing the head</b>: O(1)</li>
+  <li><b>Inserting / Removing the tail</b>: O(n) to access + O(1)</li>
+  <li><b>Inserting / Removing a middle node</b>: O(n) to access + O(1)</li>
+  <li><b>Searching for a value</b>: O(n)</li>
+</ul></div></li><li><h4>Doubly Linked List</h4><div><p>
+  Similar to a <b>singly linked list</b>, except that each node in a doubly
+  linked list also has a pointer to the previous node in the linked list. The
+  previous node is typically stored in a <span>prev</span> property.
+</p>
+<p>
+  Just as the <span>next</span> property of a doubly linked list's
+  <b>tail</b> points to the <span>null</span> value, so too does the
+  <span>prev</span> property of a doubly linked list's <b>head</b>.
+</p>
+<p>
+  Below is a visual representation of a doubly linked list whose nodes hold
+  integer values:
+</p>
+<pre>null &lt;- 0 &lt;-&gt; 1 &lt;-&gt; 2 &lt;-&gt; 3 &lt;-&gt; 4 &lt;-&gt; 5 -&gt; null
+</pre>
+<p>
+  While a doubly linked list typically exposes both its head and tail to its
+  user, as opposed to just its head in the case of a singly linked list, it
+  otherwise behaves very similarly to a singly linked list.
+</p>
+<p>
+  The following are a doubly linked list's standard operations and their
+  corresponding time complexities:
+</p>
+<ul>
+  <li><b>Accessing the head</b>: O(1)</li>
+  <li><b>Accessing the tail</b>: O(1)</li>
+  <li><b>Accessing a middle node</b>: O(n)</li>
+  <li><b>Inserting / Removing the head</b>: O(1)</li>
+  <li><b>Inserting / Removing the tail</b>: O(1)</li>
+  <li><b>Inserting / Removing a middle node</b>: O(n) to access + O(1)</li>
+  <li><b>Searching for a value</b>: O(n)</li>
+</ul></div></li><li><h4 >Circular Linked List</h4><div><p>
+  A linked list that has no clear <b>head</b> or <b>tail</b>, because its "tail"
+  points to its "head," effectively forming a closed circle.
+</p>
+<p>
+  A circular linked list can be either a <b>singly circular linked list</b> or a
+  <b>doubly circular linked list</b>.
+</p></div></li>
