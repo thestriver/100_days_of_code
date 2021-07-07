@@ -235,3 +235,28 @@ The double linkedlist has got two pointers. one pointing to the next node and th
   A circular linked list can be either a <b>singly circular linked list</b> or a
   <b>doubly circular linked list</b>.
 </p></div></li>
+
+
+
+
+----
+
+<h2>Hash Tables</h2>
+
+key:value data structure. The fact that they have these pairs makes <u>insertion, delete and search</u> all have **time complexities of constant time operations - O(i)**
+
+Unlike arrays where the identifiers are indices and are not strings. In hash tables, the keys can be strings. Thus, one needs a hash function to convert them to integers as indices. 
+
+![](assets/images/ds/Hashtables.png)
+
+[Hash tables](https://www.theavocoder.com/data-structures/2018/12/23/hash-table)
+
+
+----
+
+<h2>Stacks and Queues</h2> 
+
+
+[Stacks](https://www.theavocoder.com/data-structures/2018/12/22/stacks) LIFO
+
+[Queues](https://www.theavocoder.com/data-structures/2018/12/23/asoosfdsvt187fj6tri2t88dn01aab) FIFO

@@ -14,3 +14,5 @@ Security skills (DevSecOps)
 CI/CD
 
 ![](assets/images/devops/cicd.png)
+
+![](assets/images/devops/principles.png)
