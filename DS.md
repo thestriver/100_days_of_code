@@ -256,7 +256,232 @@ Unlike arrays where the identifiers are indices and are not strings. In hash tab
 
 <h2>Stacks and Queues</h2> 
 
+![](assets/images/ds/stacksandqueues.png)
 
 [Stacks](https://www.theavocoder.com/data-structures/2018/12/22/stacks) LIFO
 
-[Queues](https://www.theavocoder.com/data-structures/2018/12/23/asoosfdsvt187fj6tri2t88dn01aab) FIFO
+[Queues](https://www.theavocoder.com/data-structures/2018/12/23/asoosfdsvt187fj6tri2t88dn01aab) FIFO. They're most treated as Linked List
+
+<div><ul ><li><h4 >Stack</h4><div ><p>
+  An array-like data structure whose elements follow the <b>LIFO</b> rule: <b>L</b>ast <b>I</b>n, <b>F</b>irst
+  <b>O</b>ut.
+</p>
+<p>
+  A stack is often compared to a stack of books on a table: the last book that's placed on the stack of books is the
+  first one that's taken off the stack.
+</p>
+<p>
+  The following are a stack's standard operations and their
+  corresponding time complexities:
+</p>
+<ul>
+  <li><b>Pushing an element onto the stack</b>: O(1)</li>
+  <li><b>Popping an element off the stack</b>: O(1)</li>
+  <li><b>Peeking at the element on the top of the stack</b>: O(1)</li>
+  <li><b>Searching for an element in the stack</b>: O(n)</li>
+</ul>
+<p>
+  A stack is typically implemented with a <b>dynamic array</b> or with a <b>singly linked list</b>.
+</p></div></li><li><h4>Queue</h4><div><p>
+  An array-like data structure whose elements follow the <b>FIFO</b> rule: <b>F</b>irst <b>I</b>n, <b>F</b>irst
+  <b>O</b>ut.
+</p>
+<p>
+  A queue is often compared to a group of people standing in line to purchase items at a store: the first person to get
+  in line is the
+  first one to purchase items and to get out of the queue.
+</p>
+<p>
+  The following are a queue's standard operations and their
+  corresponding time complexities:
+</p>
+<ul>
+  <li><b>Enqueuing an element into the queue</b>: O(1)</li>
+  <li><b>Dequeuing an element out of the queue</b>: O(1)</li>
+  <li><b>Peeking at the element at the front of the queue</b>: O(1)</li>
+  <li><b>Searching for an element in the queue</b>: O(n)</li>
+</ul>
+<p>
+  A queue is typically implemented with a <b>doubly linked list</b>.
+</p></div></li></ul></div>
+
+
+
+----
+
+<h2>Strings</h2> 
+
+![](assets/images/ds/strings.png)
+
+<div class="_2H_2iwk-oa_vcNZxcoehl3"><ul class="_11yBtxJAfoXvpm8jCVEmEs"><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">String</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+  One of the fundamental data types in Computer Science, strings are stored in
+  <b>memory</b> as <b>arrays</b> of integers, where each character in a given
+  string is mapped to an integer via some character-encoding standard like
+  <b>ASCII</b>.
+</p>
+<p>
+  Strings behave much like normal arrays, with the main distinction being that,
+  in most programming languages (C++ is a notable exception), strings are
+  <b>immutable</b>, meaning that they can't be edited after creation. This also
+  means that simple operations like appending a character to a string are more
+  expensive than they might appear.
+</p>
+<p>
+  The canonical example of an operation that's deceptively expensive due to
+  string immutability is the following:
+</p>
+<pre>string = "this is a string"
+newString = ""
+
+for character in string:
+    newString += character
+</pre>
+<p>
+  The operation above has a time complexity of <b>O(n<sup>2</sup>)</b> where n
+  is the length of <span>string</span>, because each addition of a character to
+  <span>newString</span> creates an entirely new string and is itself an
+  <b>O(n)</b> operation. Therefore, n O(n) operations are performed, leading to
+  an O(n<sup>2</sup>) time-complexity operation overall.
+</p></div></li></ul></div>
+
+----
+
+<h2>Graphs</h2> 
+
+
+N.B
+
+a. When you're dealing with cyclic graphs in a coding interview, you would want to make sure that you don't <u>end up with infinite loops</u>
+
+b. Connectivity, direction and cycles are 3 important concepts to pay attention
+
+In graph, you can search, remove and add nodes, as well as search, remove, and add nodes and edges. One way to represent a graph is by using an adjacency list.
+
+[Graphs](https://www.theavocoder.com/data-structures/2018/12/24/graphs)
+
+c. Traversal: DFS (Depth-First Search) & BFS(Breadth-First Search)
+
+![](assets/images/ds/graphs.png)
+
+
+----
+
+<h2>Trees</h2> 
+
+N.B
+a. A tree is acyclic - not a cycle where a child node would have a direction back to the root/parent node
+
+b. a tree can't be disconnected
+<div class="_2H_2iwk-oa_vcNZxcoehl3"><ul class="_11yBtxJAfoXvpm8jCVEmEs"><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+  A data structure that consists of nodes, each with some value and pointers to
+  child-nodes, which recursively form <b>subtrees</b> in the tree.
+</p>
+<p>
+  The first node in a tree is referred to as the <b>root</b> of the tree, while
+  the nodes at the bottom of a tree (the nodes with no child-nodes) are referred
+  to as <b>leaf nodes</b> or simply <b>leaves</b>. The paths between the root of
+  a tree and its leaves are called <b>branches</b>, and the <b>height</b> of a
+  tree is the length of its longest branch. The <b>depth</b> of a tree node is
+  its distance from its tree's root; this is also known as the node's
+  <b>level</b> in the tree.
+</p>
+<p>
+  A tree is effectively a <b>graph</b> that's <b>connected</b>, <b>directed</b>,
+  and <b>acyclic</b>, that has an explicit root node, and whose nodes all have a
+  single <b>parent</b> (except for the root node, which effectively has no
+  parent). Note that in most implementations of trees, tree nodes don't have a
+  pointer to their parent, but they can if desired.
+</p>
+<p>
+  There are many types of trees and tree-like structures, including
+  <b>binary trees</b>, <b>heaps</b>, and <b>tries</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Binary Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>A <b>tree</b> whose nodes have up to <b>two</b> child-nodes.</p>
+<p>
+  The structure of a binary tree is such that many of its operations have a
+  logarithmic time complexity, making the binary tree an incredibly attractive
+  and commonly used data structure.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">K-ary Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+  A <b>tree</b> whose nodes have up to <b>k</b> child-nodes. A
+  <b>binary tree</b> is a k-ary tree where <b>k == 2</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Perfect Binary Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+  A <b>binary tree</b> whose interior nodes all have two child-nodes and whose
+  <b>leaf nodes</b> all have the same <b>depth</b>. Example:
+</p>
+<pre>           1
+      /         \
+     2           3
+   /   \       /   \
+  4     5     6     7
+ / \   / \   / \   / \
+8   9 10 11 12 13 14 15
+</pre></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Complete Binary Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+  A <b>binary tree</b> that's <i>almost</i> <b>perfect</b>; its interior nodes
+  all have two child-nodes, but its <b>leaf nodes</b> don't necessarily all have
+  the same <b>depth</b>. Furthermore, the nodes in the last <b>level</b> of a
+  complete binary tree are as far left as possible. Example:
+</p>
+<pre>          1
+       /     \
+      2       3
+    /   \   /   \
+   4     5 6     7
+ /   \
+8     9
+</pre>
+<p>
+  Conversely, the following binary tree <i>isn't</i> complete, because the nodes
+  in its last level aren't as far left as possible:
+</p>
+<pre>          1
+       /     \
+      2       3
+    /   \   /   \
+   4     5 6     7
+         /   \
+        8     9
+</pre></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Balanced Binary Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+  A <b>binary tree</b> whose nodes all have left and right <b>subtrees</b> whose
+  <b>heights</b> differ by no more than 1.
+</p>
+<p>
+  A balanced binary tree is such that the logarithmic time complexity of its
+  operations is maintained.
+</p>
+<p>
+  For example, inserting a node at the bottom of the following
+  <i>imbalanced</i> binary tree's left subtree would cleary not be a
+  logarithmic-time operation, since it would involve traversing through most of
+  the tree's nodes:
+</p>
+<pre>             1
+          /     \
+         2       3
+       /
+      4
+    /
+   8
+  /
+10
+</pre>
+<p>The following is an example of a balanced binary tree:</p>
+<pre>          1
+       /     \
+      2       3
+    /   \   /   \
+   4     5 6     7
+ /   \         /   
+10    9       8
+</pre></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Full Binary Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+  A <b>binary tree</b> whose nodes all have either two child-nodes or zero
+  child-nodes. Example:
+</p>
+<pre>    1
+ /     \
+2       3
+      /   \
+     6     7
+   /   \
+  8     9
+</pre></div></li></ul></div>
+
+[Trees](https://www.theavocoder.com/data-structures/2018/12/23/binary-search-tree)
