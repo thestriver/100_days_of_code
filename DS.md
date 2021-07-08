@@ -1,10 +1,48 @@
+## Coding Interview Questions
+
+## Arrays
+
+Two Number Sum
+
+<pre>function twoNumberSum(array, targetSum) {
+   const nums = {};
+   for (const num of array){
+   const y = targetSum - num
+   //array.includes(y)
+   if ( y in nums ) {
+   return [y, num]
+   } else {
+   nums[num] = true;
+   }
+   }
+   return [];
+   }
+</pre>
+
+o(n) T & o(n) S
+
+function twoNumberSum(array, targetSum) {
+// Write your code here.
+for (let i = 0; i < array.length - 1; i++) {
+let firstNum = array[i]
+for (let j = i + 1; j < array.length; j ++){
+let secondNum = array[j];
+if (firstNum + secondNum === targetSum ){
+return [firstNum, secondNum]
+}
+}
+}
+return []
+}
+
 ## Data Structures Crash Course (Algoexpert)
 
 Complexity Analysis: <p>The process of determining how efficient an algorithm is. Complexity analysis usually involves finding both the
-    <b>time complexity</b> and the <b>space complexity</b> of an algorithm.
-</p>  
+<b>time complexity</b> and the <b>space complexity</b> of an algorithm.
 
-----
+</p>
+
+---
 
 <h2>Big O notation 
 </h2> - a powerful tool that allows us to generalize the space-time complexity of an algorithm as a function of its input size.
@@ -36,6 +74,7 @@ Complexity Analysis: <p>The process of determining how efficient an algorithm is
 </ul>
 
 ![](assets/images/ds/timecomplexities.png)
+
 <p>
   Note that in the context of coding interviews, Big O notation is usually
   understood to describe the
@@ -58,12 +97,11 @@ Complexity Analysis: <p>The process of determining how efficient an algorithm is
   and in O(n<sup>2</sup>) time in the worse case").
 </p></div>
 
-Brief overwiew: https://www.youtube.com/watch?v=__vX2sjlpXU 
+Brief overwiew: https://www.youtube.com/watch?v=__vX2sjlpXU
 
+---
 
-----
-
-<h2>Logarithm</h2> 
+<h2>Logarithm</h2>
 
 <p><b>log<sub>b</sub>(x) = y</b> if and only if <b>b<sup>y</sup> = x</b></p>
 
@@ -71,9 +109,9 @@ Thus => <p><b>log(n) = y</b> if and only if <b>2<sup>y</sup> = n</b></p>
 
 Key point:
 
-<u>To find the (binary) logarithm of base of a number We have to say <b>2</b> to the **power** of **?** is that number. </u>  if we solve that, **?** is the **log of N**
+<u>To find the (binary) logarithm of base of a number We have to say <b>2</b> to the **power** of **?** is that number. </u> if we solve that, **?** is the **log of N**
 
-Thus, To double **N**, we only need to increase **y** by 1. E.g:  2<sup>2</sup> = 4; 2<sup>2+1</sup> = 2<sup>3</sup> which **6**
+Thus, To double **N**, we only need to increase **y** by 1. E.g: 2<sup>2</sup> = 4; 2<sup>2+1</sup> = 2<sup>3</sup> which **6**
 
 If n doubles, log(n) only increases by 1
 
@@ -82,11 +120,9 @@ operations needed to
 complete the algorithm only increases by one unit. Conversely, an algorithm with a linear time complexity would
 see its number of operations double if its input size doubled.</p>
 
+---
 
-
-----
-
-<h2>Arrays</h2> 
+<h2>Arrays</h2>
 
 2 types of Array:
 Static & Dynamic
@@ -139,9 +175,7 @@ Static array operations and respective time and space complexities:
   arrays as dynamic arrays.
 </p></div>
 
-
-
-----
+---
 
 <h2>Linked Lists</h2> 
 A big difference between Linked Lists and arrays is that while arrays need back to back spaces in the memory to create an array. Linked Lists use any spaces available in the memory and then connect to one another (i.e other nodes) using pointers.
@@ -151,7 +185,7 @@ A big difference between Linked Lists and arrays is that while arrays need back 
 Each node needs 2 back to back memory slots. one showing the value and the other showing the pointer. That's for the singly linked list
 ![](assets/images/ds/LinkedLists.png)
 
-The double linkedlist has got two pointers. one pointing to the next node and the other pointing to the previous(prev) node. 
+The double linkedlist has got two pointers. one pointing to the next node and the other pointing to the previous(prev) node.
 
 [Doubly linked list](https://www.theavocoder.com/data-structures/2018/12/23/doubly-linked-list)
 
@@ -236,25 +270,21 @@ The double linkedlist has got two pointers. one pointing to the next node and th
   <b>doubly circular linked list</b>.
 </p></div></li>
 
-
-
-
-----
+---
 
 <h2>Hash Tables</h2>
 
 key:value data structure. The fact that they have these pairs makes <u>insertion, delete and search</u> all have **time complexities of constant time operations - O(i)**
 
-Unlike arrays where the identifiers are indices and are not strings. In hash tables, the keys can be strings. Thus, one needs a hash function to convert them to integers as indices. 
+Unlike arrays where the identifiers are indices and are not strings. In hash tables, the keys can be strings. Thus, one needs a hash function to convert them to integers as indices.
 
 ![](assets/images/ds/Hashtables.png)
 
 [Hash tables](https://www.theavocoder.com/data-structures/2018/12/23/hash-table)
 
+---
 
-----
-
-<h2>Stacks and Queues</h2> 
+<h2>Stacks and Queues</h2>
 
 ![](assets/images/ds/stacksandqueues.png)
 
@@ -305,11 +335,9 @@ Unlike arrays where the identifiers are indices and are not strings. In hash tab
   A queue is typically implemented with a <b>doubly linked list</b>.
 </p></div></li></ul></div>
 
+---
 
-
-----
-
-<h2>Strings</h2> 
+<h2>Strings</h2>
 
 ![](assets/images/ds/strings.png)
 
@@ -334,7 +362,8 @@ Unlike arrays where the identifiers are indices and are not strings. In hash tab
 newString = ""
 
 for character in string:
-    newString += character
+newString += character
+
 </pre>
 <p>
   The operation above has a time complexity of <b>O(n<sup>2</sup>)</b> where n
@@ -344,10 +373,9 @@ for character in string:
   an O(n<sup>2</sup>) time-complexity operation overall.
 </p></div></li></ul></div>
 
-----
+---
 
-<h2>Graphs</h2> 
-
+<h2>Graphs</h2>
 
 N.B
 
@@ -363,15 +391,15 @@ c. Traversal: DFS (Depth-First Search) & BFS(Breadth-First Search)
 
 ![](assets/images/ds/graphs.png)
 
+---
 
-----
-
-<h2>Trees</h2> 
+<h2>Trees</h2>
 
 N.B
 a. A tree is acyclic - not a cycle where a child node would have a direction back to the root/parent node
 
 b. a tree can't be disconnected
+
 <div class="_2H_2iwk-oa_vcNZxcoehl3"><ul class="_11yBtxJAfoXvpm8jCVEmEs"><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Tree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
   A data structure that consists of nodes, each with some value and pointers to
   child-nodes, which recursively form <b>subtrees</b> in the tree.
