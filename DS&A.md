@@ -19,3 +19,18 @@ Two Number Sum
    }
    o(n) T & o(n) S
 </pre>
+
+---
+Validate Subsequence
+<pre>
+function isValidSubsequence(array, sequence) {
+  // Write your code here.
+	let seqIndex = 0;
+
+	for (const value of array){
+		if(seqIndex === sequence.length) break;
+		if (sequence[seqIndex] === value) seqIndex++;
+	}
+	return seqIndex === sequence.length
+}
+</pre>
