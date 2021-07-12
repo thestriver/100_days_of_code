@@ -16,3 +16,10 @@ CI/CD
 ![](assets/images/devops/cicd.png)
 
 ![](assets/images/devops/principles.png)
+
+
+Week 3:
+
+Infastructure as code
+
+![](assets/images/devops/iac.png)
