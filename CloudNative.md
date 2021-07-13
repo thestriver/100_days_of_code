@@ -2,8 +2,7 @@
 
 Week 1:
 ----
-<h2>Overview
-</h2>
+<h2>Overview</h2>
 
 ![](assets/images/devops/overview.png)
 
@@ -22,4 +21,8 @@ Week 3:
 
 Infastructure as code
 
+
 ![](assets/images/devops/iac.png)
+
+
+![](assets/images/devops/test.png)
